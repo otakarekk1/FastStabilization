@@ -1,1 +1,3 @@
 # FastStabilization
+
+The code in this repository implements a stabilization algorithm for unknown linear time-ivariant (LTI) systems. This algorithm operates by first doing exploration steps to collect data from the system, then identifying the system from this data and finally designing a stabilizing controller. The showcased algorithm is able to perform this task with the minimum amount of exploration steps, which is n+m, where $n$ is the number of states of the system and $m$ is the number of inputs of the system. The algorithms performance is demonstrated on OpenAIs Lunar Lander and a set of 1000 random LTI systems in the Jupyther notebook ''.
